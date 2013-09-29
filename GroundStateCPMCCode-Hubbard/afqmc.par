@@ -1,0 +1,35 @@
+2
+1
+2
+1
+10000
+25
+1000
+100
+3
+1
+0
+
+100.0
+1.0
+0.001
+0.0
+1.0000000
+
+fscanf (pf,"%d",&ist->n_sites_one);
+fscanf (pf,"%d",&ist->n_sites_two);
+fscanf (pf,"%d",&ist->n_up);
+fscanf (pf,"%d",&ist->n_down);
+fscanf (pf,"%d",&ist->n_walkers);
+fscanf (pf,"%d",&ist->n_steps_energy);
+fscanf (pf,"%d",&ist->n_steps_orthogonalize);
+fscanf (pf,"%d",&ist->n_steps_free); 
+fscanf (pf,"%d",&ist->flag_trial); 
+fscanf (pf,"%d",&ist->flag_pbc);   
+fscanf (pf,"%d",&ist->flag_cp);
+
+fscanf (pf,"%lg",&cns->beta);
+fscanf (pf,"%lg",&cns->beta_equilibration);
+fscanf (pf,"%lg",&cns->dtau);
+fscanf (pf,"%lg",&cns->U);
+fscanf (pf,"%lg",&cns->t);

@@ -1,0 +1,27 @@
+1
+3
+1
+1
+3
+1
+1
+0
+0
+
+0.0
+1.0
+1.0
+
+fscanf (pf,"%d",&ist->dimension);
+fscanf (pf,"%d",&ist->n_sites_one);
+fscanf (pf,"%d",&ist->n_sites_two);
+fscanf (pf,"%d",&ist->n_sites_three);
+fscanf (pf,"%d",&ist->n_up);
+fscanf (pf,"%d",&ist->n_down);
+fscanf (pf,"%d",&ist->flag_pbc);
+fscanf (pf,"%d",&ist->flag_spin_polarized); 
+fscanf (pf,"%d",&ist->flag_ground_state); 
+
+fscanf (pf,"%lg",&cns->U);
+fscanf (pf,"%lg",&cns->t);
+fscanf (pf,"%lf",&cns->beta); 
