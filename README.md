@@ -8,3 +8,5 @@ This repository consists of a ground-state CPMC, a ground-state ED, and a finite
 The CPMC code takes in inputs in the afqmc.par file (the meanings of these inputs are at the bottom of the file) and outputs energies and the used parameters in the afqmc-parameters.dat and energy.dat files. 
 
 The ED codes take in inputs from the ed.par files and return output energies in the energy.dat file. 
+
+All codes may be compiled by typing make. The Makefile should be altered to suit your needs. 
