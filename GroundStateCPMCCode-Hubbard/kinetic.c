@@ -4,7 +4,7 @@
 
 void propagate_forwards_kinetic(double *kinetic_full,double *wf_up,double *wf_down,double *trial_wf_up,double *trial_wf_down,double *overlap_inverse_up,double *overlap_inverse_down,double *overlap_up,double *overlap_down,double *weights,int_st ist) {
 
-   /*Moves the Trial Wavefunction One Half Kinetic Step Backwards*/
+   /*Propagate the Wavefunction Forward By One Full Kinetic Time Slice*/
 
    int i; 
    int n_sites_n_up = ist.n_sites * ist.n_up; 
@@ -63,7 +63,7 @@ return;
 
 void propagate_half_backwards_kinetic(double *kinetic_backwards_half,double *wf_up,double *wf_down,double *trial_wf_up,double *trial_wf_down,double *overlap_up,double *overlap_down,double *overlap_inverse_up,double *overlap_inverse_down,double *weights,int_st ist){ 
 
-    /*Propagate the Wavefunction Forward By One Full Kinetic Time Slice*/
+    /*Moves the Trial Wavefunction One Half Kinetic Step Backwards*/
 
     int i;
     int n_sites_n_up = ist.n_sites * ist.n_up; 
@@ -122,7 +122,7 @@ return;
 
 void propagate_half_forwards_kinetic(double *kinetic_forwards_half,double *wf_up,double *wf_down,double *trial_wf_up,double *trial_wf_down,double *overlap_up,double *overlap_down,double *overlap_inverse_up,double *overlap_inverse_down,double *weights,int_st ist){
 
-    /*Propagate the Wavefunction Forward By One Full Kinetic Time Slice*/
+    /*Propagate the Wavefunction Forward By One Half Kinetic Time Slice*/
 
     int i;
     int n_sites_n_up = ist.n_sites * ist.n_up;
